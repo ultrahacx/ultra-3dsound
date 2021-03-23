@@ -1,15 +1,17 @@
 # ultra-3dsound
 Template resource for setting spatial audio in FiveM GTA5 mod
 
-#Preview 
+# Preview 
 - Uses player camera rotation for spatial effect: [Video 1](https://www.youtube.com/watch?v=Asoa9LmcTs4) 
 - Uses ped rotation for spatial effect: [Video 2](https://www.youtube.com/watch?v=Ng7Bn20WuKQ) 
 
-#Performance
+# Performance
+
 ![image](https://user-images.githubusercontent.com/43913907/112118752-b0340100-8be2-11eb-86a6-4f76e19c1d69.png)
+
 0.00ms when audio is not playing
 
-#Usage
+# Usage
 The resource comes with server exports so that you can have the taste of spatial audio.
 **Export 1:**
 exports['ultra-3dsound']:playSound(source,audioSource,audioCoords,audioRotation)
